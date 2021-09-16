@@ -8,18 +8,42 @@
     <link rel="stylesheet" href="/styles.css" class="css">
 </head>
 <body>
-    <h1 class="header">Is your birthday lucky</h1>
-    <div class="container">
+
+    <header>
+    <h1  className="header">Is your birthday lucky</h1>
+      </header>
+    <main>
         <label for="date-of-birth"></label>
         <input type="date" id="date-of-birth"/>
 
-        <label for="lucky-number">Lucky Number</label>
+        <label for="lucky-number"> Enter Lucky Number</label>
         <input id="lucky-number"  type="number"/>
         
-        <button id="check-number">Check Number</button>
+        <button id="check-number" class="btn-check">Check Number</button>
         
         <p id="output-box"></p>
-    </div>
+    </main>
+
+    <footer class="footer container">
+        <div class="footer-header">Connect with me on social media</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/rodriguescarson">
+                    Linkedin
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/rodriguescarson">
+                    Github
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/carsonmarz">
+                    twitter
+                </a>
+            </li>
+        </ul>
+    </footer>
     <script src="/index.js"></script>
 </body>
 </html>
